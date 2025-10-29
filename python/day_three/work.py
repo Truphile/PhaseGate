@@ -21,15 +21,14 @@ answer_hub = [
 {"ATM password should be kept in', Options 'a Personal diary b Office diary c Memory d All of above": "c"},
 {"ATM password to be shared only with', "Options" 'a Spouse b Obedient son c Obedient daughter d None of above": "d"},
 {"Timely repayment of loans results', Option 'a Good reputation, b No tension, c Easily availability of loan in future, d All of above": "d"},
-{'Defaulter of loan means', "Options" 'a Not paying loan instalments b Bad reputation c Illegal activities d None of above': "a"},
-{'Life insurance means', "Options" 'a Insurance of human, b Insurance of life of human and Cattle c Insurance of Life of Machines d All of above': "a"}
+{"Defaulter of loan means', "Options" 'a Not paying loan instalments b Bad reputation c Illegal activities d None of above': "a"},
+{"Life insurance means', "Options" 'a Insurance of human, b Insurance of life of human and Cattle c Insurance of Life of Machines d All of above": "a"}
 ]
 
 
 
-questions = [
-   
-]
+
+
 def check_questions():
 
 	score = 0
