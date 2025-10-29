@@ -9,7 +9,7 @@ public class DealerTest{
 		float result = Dealer.getNumberOfYearsWhenGoodsBecomesFree();
 		assertEquals(result, 0);
 
-
+		}
 	@Test
 	public void testThatNumberOfItemsIncreased(){
 		Dealer dealer = new Dealer();
@@ -19,4 +19,3 @@ public class DealerTest{
 }
 	}
 
-}
