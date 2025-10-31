@@ -32,7 +32,7 @@ def get_questions_and_answer():
 				#if answer not in ['a', 'b', 'c', 'd']:
 					#raise ValueError("Invalid choice. Please enter A, B, C, or D only")
 				break
-		except ValueError :
+			except ValueError :
 				print("Unexpected input Please try again.")
 				print("If you need your glasses pls get it so you can put in the right input this time! ")
 

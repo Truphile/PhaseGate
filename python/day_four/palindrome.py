@@ -1,6 +1,5 @@
 def is_palindrome(words_list):
 
-	new_word = words_list
 	count = 0
 	for check in words_list:
 		palindrome = ""
@@ -8,13 +7,13 @@ def is_palindrome(words_list):
 			palindrome = checker + palindrome
 
 		if check == palindrome:
-			new_word[count] = True;
+			words_list[count] = True;
 
 		else:
-			new_word[count] = False;
+			words_list[count] = False;
 
 		count+=1
-	return new_word
+	return words_list
 
 words_list  = ["madam", "kali", "hello", "noon"]
 print(is_palindrome(words_list))
