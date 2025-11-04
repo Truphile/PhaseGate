@@ -61,8 +61,14 @@ public class Parking {
 
                 case "2":
                     System.out.print("Enter slot number to leave: ");
-                    int slotNumber = Integer.parseInt(scanner.nextLine());
+		    if (scanner.hasNextInt()){
+                    int slotNumber = scanner.hasNextInt(); 
+		    scanner.nextLine();
                     parking.leaveParkingLot(slotNumber);
+		 }  else{ 
+                    System.out.print("Invalid car number!");
+		    scanner.nextLine();
+		}
                     break;
 
                 case "3":

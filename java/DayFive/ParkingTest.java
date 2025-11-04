@@ -5,7 +5,8 @@ public class ParkingTest {
 
     @Test
     void testEnterParkingLot() {
-        Parking parking = new Parking();        	parking.enterParkingLot(101);
+        Parking parking = new Parking();        	
+	parking.enterParkingLot(101);
         assertEquals(101, parking.carSlots[0]);   
   }
 
