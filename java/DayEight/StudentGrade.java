@@ -21,7 +21,7 @@ public class StudentGrade{
 	int numberOfStudents = input.nextInt();
 	
 
-	System.out.print("Enter number of subjects: ");
+	System.out.println("Enter number of subjects: ");
 	int numberOfSubjects = input.nextInt();
 
 
@@ -29,10 +29,11 @@ public class StudentGrade{
 
 	for (int check = 0; check < numberOfStudents; check++){
 		System.out.println("Enter scores of students " + (check + 1) + ":");
-		for (int checker = check; checker < numberOfSubjects; checker++){
-		scores;
-			System.out.println("Enter score: ");
-}
+		for (int checker = 1; checker <= numberOfSubjects; checker++) {
+                System.out.print("Subject " + checker + ": ");
+                int score = input.nextInt();
+
+		}
 	}
 
 	}
