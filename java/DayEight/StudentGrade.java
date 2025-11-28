@@ -104,7 +104,7 @@ public class StudentGrade {
 				System.out.print(scores[check][checker] + " ");
 			}
 			double average = (double) total[check] / numberOfSubjects;
-			System.out.printf("Total: %d | Average: %.2f | Position: %d%n", total[check], average, Arrays.toboolean(positions[check]));
+			System.out.printf("Total: %d | Average: %.2f | Position: %d%n", total[check], average, positions[check]);
 
 
 			
@@ -148,7 +148,7 @@ public class StudentGrade {
             }
         }
 
-
+		Arrays.sort(scores);
 
 		System.out.println("==========Class Summary===========");
 		System.out.println("==================================");
